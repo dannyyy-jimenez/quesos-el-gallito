@@ -21,7 +21,7 @@ export const metadata: Metadata = {
       "Descubre la auténtica tradición mexicana con Quesos El Gallito. Ofrecemos quesos frescos y deliciosos, ideales para cualquier platillo. Calidad y sabor en cada bocado.",
     images: [
       {
-        url: "https://www.quesoselgallito.com/images/quesos-el-gallito-cover.jpg",
+        url: "https://res.cloudinary.com/labodegaltd/image/upload/f_auto,q_auto/quesosgallito/quesos-el-gallito-cover.png",
         width: 800,
         height: 600,
         alt: "Quesos El Gallito",
@@ -30,11 +30,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    url: "https://www.quesoselgallito.com/",
     title: "Quesos El Gallito - Auténticos Quesos Mexicanos de Calidad",
     description:
       "Descubre la auténtica tradición mexicana con Quesos El Gallito. Ofrecemos quesos frescos y deliciosos, ideales para cualquier platillo. Calidad y sabor en cada bocado.",
-    image: "https://www.quesoselgallito.com/images/quesos-el-gallito-cover.jpg",
   },
   viewport: "width=device-width, initial-scale=1",
   robots: {
