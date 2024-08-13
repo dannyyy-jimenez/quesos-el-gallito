@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/favicon.ico",
+    icon: "https://res.cloudinary.com/labodegaltd/image/upload/q_auto,w_64,h_64/quesosgallito/logotipomenu_333x227.ico",
   },
 };
 
