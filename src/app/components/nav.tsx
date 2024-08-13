@@ -50,13 +50,15 @@ export default function Nav() {
         </p>
         <div className="flex-auto" />
         <div className="flex-auto" />
-        <Image
-          alt="available-banner"
-          className="transform  max-sm:scale-75 max-sm:translate-y-0 scale-150 translate-y-5"
-          width={150}
-          height={150}
-          src="https://res.cloudinary.com/labodegaltd/image/upload/v1723565362/quesosgallito/available-hacienda-retailers.png"
-        />
+        <Link target="_blank" href={"https://www.lahaciendabrands.com"}>
+          <Image
+            alt="available-banner"
+            className="transform  max-sm:scale-75 max-sm:translate-y-0 scale-150 translate-y-5"
+            width={150}
+            height={150}
+            src="https://res.cloudinary.com/labodegaltd/image/upload/v1723565362/quesosgallito/available-hacienda-retailers.png"
+          />
+        </Link>
       </div>
       <button className="fixed bg-white z-20 shadow-[rgba(255,255,255,0.3)] shadow-xl px-6 py-4 rounded-full flex items-center bottom-10 right-32">
         <p>View Product Catalog</p>
