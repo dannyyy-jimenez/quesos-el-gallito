@@ -10,7 +10,12 @@ import {
 import Link from "next/link";
 import { SiInstacart } from "react-icons/si";
 
-const mPlusRounded = M_PLUS_Rounded_1c({ subsets: ["latin"], weight: "700" });
+const mPlusRounded = M_PLUS_Rounded_1c({
+  subsets: ["latin"],
+  display: "swap",
+  adjustFontFallback: false,
+  weight: "700",
+});
 
 export default function Home() {
   const products = [
@@ -63,6 +68,7 @@ export default function Home() {
           className="flex max-md:p-10 snap-center snap-always min-h-screen relative flex-col items-center justify-between p-24"
         >
           <Image
+            alt="product cover"
             width={1000}
             height={1000}
             className="max-sm:h-[80vh] object-contain"

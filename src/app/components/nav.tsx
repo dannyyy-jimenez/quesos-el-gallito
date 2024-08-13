@@ -14,6 +14,7 @@ export default function Nav() {
     <>
       <div className="fixed w-full z-20 max-sm:px-4 px-16 py-4 flex flex-row content-center items-center h-32">
         <Image
+          alt="logo"
           className="w-auto inline-flex max-sm:w-20"
           height={72}
           width={150}
@@ -23,6 +24,7 @@ export default function Nav() {
         <p className="max-sm:hidden w-auto text-white flex items-center">
           <span className="relative h-[32px] w-[32px] flex items-center justify-center mr-2">
             <Image
+              alt="cheese-icon"
               className="absolute top-0"
               width={32}
               height={32}
@@ -36,6 +38,7 @@ export default function Nav() {
         <p className="max-sm:hidden w-auto text-white flex items-center">
           <span className="relative h-[32px] w-[32px] flex items-center justify-center mr-2">
             <Image
+              alt="cheese-icon"
               className="absolute top-0"
               width={32}
               height={32}
@@ -48,6 +51,7 @@ export default function Nav() {
         <div className="flex-auto" />
         <div className="flex-auto" />
         <Image
+          alt="available-banner"
           className="transform  max-sm:scale-75 max-sm:translate-y-0 scale-150 translate-y-5"
           width={150}
           height={150}
