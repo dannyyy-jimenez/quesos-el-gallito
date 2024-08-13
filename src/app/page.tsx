@@ -68,6 +68,7 @@ export default function Home() {
           className="flex max-md:p-10 snap-center snap-always min-h-screen relative flex-col items-center justify-between p-24"
         >
           <Image
+            priority
             alt="product cover"
             width={1000}
             height={1000}
