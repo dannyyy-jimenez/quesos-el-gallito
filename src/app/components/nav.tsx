@@ -61,7 +61,7 @@ export default function Nav() {
         </Link>
       </div>
       <button className="fixed bg-white z-20 shadow-[rgba(255,255,255,0.3)] shadow-xl px-6 py-4 rounded-full flex items-center bottom-10 right-32">
-        <p>View Product Catalog</p>
+        <p className="text-black">View Product Catalog</p>
         <GrCatalog className="ml-2" />
         <Link
           target="_blank"
